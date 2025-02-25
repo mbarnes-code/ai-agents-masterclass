@@ -74,7 +74,7 @@ services:
       - open-webui:/app/backend/data
 
   postgres:
-    image: postgres:16-alpine
+    image: postgres:latest
     networks: ['demo']
     restart: unless-stopped
     ports:
